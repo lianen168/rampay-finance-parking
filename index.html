@@ -1,159 +1,558 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>rampay.finance</title>
-  <meta name="description" content="Smart fiat rails for the AI-blockchain era. Built for X402 and beyond." />
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500&display=swap');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RamPay.finance - The Infrastructure of Web3 Finance</title>
+    <meta name="description" content="Premium Domain For Sale: RamPay.finance. The definitive brand for Institutional DeFi, On-Ramps, and Next-Gen Financial Systems.">
+    <meta name="keywords" content="rampay, finance domain, crypto banking, web3 payments, fintech brand, domain for sale, defi infrastructure">
+    
+    <!-- Social Media Tags -->
+    <meta property="og:title" content="RamPay.finance - Web3 Financial Infrastructure">
+    <meta property="og:description" content="Premium Asset. Secure the future of finance today.">
+    <meta property="og:url" content="https://rampay.finance/">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;600;800&family=Syncopate:wght@700&display=swap" rel="stylesheet">
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "RamPay.finance Domain",
+      "description": "Premium Web3 financial domain name.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.spaceship.com/s/buy/rampay.finance/e0mPy6EoP7Uipib4",
+        "priceCurrency": "USD",
+        "price": "369.00"
+      }
     }
+    </script>
 
-    body {
-      background: linear-gradient(135deg, #0f0c29, #1a1a2e);
-      color: #e0e0ff;
-      font-family: 'Inter', sans-serif;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-      position: relative;
-    }
+    <style>
+        :root {
+            --bg-color: #0b0c15; /* Dark Institutional Navy */
+            --accent-main: #6c5ce7; /* Future Violet */
+            --accent-glow: #a29bfe;
+            --text-white: #ffffff;
+            --text-gray: #b2bec3;
+            --card-glass: rgba(255, 255, 255, 0.03);
+            --border-glass: rgba(108, 92, 231, 0.3);
+        }
 
-    body::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: 
-        radial-gradient(circle at 25% 30%, rgba(0, 210, 255, 0.08) 0%, transparent 50%),
-        radial-gradient(circle at 75% 70%, rgba(30, 200, 100, 0.07) 0%, transparent 60%);
-      z-index: -1;
-    }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-    .container {
-      text-align: center;
-      max-width: 760px;
-      padding: 2rem;
-    }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-white);
+            font-family: 'Manrope', sans-serif;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
 
-    h1 {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 3.6rem;
-      letter-spacing: -0.5px;
-      margin-bottom: 1.6rem;
-      background: linear-gradient(to right, #00d2ff, #00ff9d);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-    }
+        /* Network Background */
+        #network-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
 
-    .tagline {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-      line-height: 1.6;
-      color: #c0d6e8;
-    }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
 
-    .protocol-badge {
-      display: inline-block;
-      background: rgba(0, 210, 255, 0.15);
-      color: #00d2ff;
-      padding: 0.4rem 1rem;
-      border-radius: 20px;
-      font-size: 0.95rem;
-      margin: 1.2rem 0;
-      border: 1px solid rgba(0, 210, 255, 0.3);
-    }
+        /* --- HEADER --- */
+        header {
+            min-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 60px;
+        }
 
-    .features {
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      margin: 2rem 0;
-      flex-wrap: wrap;
-    }
+        .brand {
+            margin-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
 
-    .feature {
-      background: rgba(20, 25, 50, 0.6);
-      padding: 1rem;
-      border-radius: 12px;
-      width: 140px;
-      font-size: 0.9rem;
-      color: #a0f0c0;
-    }
+        /* Dynamic Font 1: RAMPAY (Solid, Stable, Corporate) */
+        .txt-ramp {
+            font-family: 'Manrope', sans-serif;
+            font-weight: 800;
+            font-size: clamp(3rem, 8vw, 6rem);
+            color: #fff;
+            letter-spacing: -2px;
+            background: linear-gradient(to bottom, #ffffff 50%, #b2bec3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+        }
+        
+        /* Dynamic Font 2: .FINANCE (Tech, Digital, Ticker style) */
+        .txt-finance {
+            font-family: 'Syncopate', sans-serif;
+            font-weight: 700;
+            font-size: clamp(2rem, 5vw, 4rem);
+            color: var(--accent-main);
+            text-shadow: 0 0 20px rgba(108, 92, 231, 0.5);
+            animation: pulse-glow 3s infinite alternate;
+        }
 
-    .price {
-      font-size: 1.4rem;
-      margin: 2rem 0;
-      color: #00ff9d;
-      font-weight: 600;
-    }
+        @keyframes pulse-glow {
+            0% { text-shadow: 0 0 10px rgba(108, 92, 231, 0.2); letter-spacing: 0px; }
+            100% { text-shadow: 0 0 30px rgba(108, 92, 231, 0.8); letter-spacing: 5px; }
+        }
 
-    .contact {
-      margin-top: 2rem;
-      font-size: 1.05rem;
-      color: #80d0ff;
-    }
+        /* Definition Card */
+        .definition {
+            background: linear-gradient(135deg, rgba(108, 92, 231, 0.1), transparent);
+            border-left: 4px solid var(--accent-main);
+            padding: 20px 30px;
+            text-align: left;
+            max-width: 700px;
+            backdrop-filter: blur(10px);
+            border-radius: 0 12px 12px 0;
+        }
+        .def-label {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            color: var(--accent-glow);
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+        .def-content {
+            font-size: 1.1rem;
+            color: #dfe6e9;
+        }
 
-    .contact a {
-      color: #00d2ff;
-      text-decoration: none;
-    }
+        /* --- GRID --- */
+        .verticals { padding: 80px 0; }
+        
+        .section-head { text-align: center; margin-bottom: 50px; }
+        .section-head h2 { font-size: 2rem; font-weight: 300; }
+        .section-head b { color: var(--accent-main); font-weight: 800; }
 
-    .contact a:hover {
-      text-decoration: underline;
-    }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
 
-    footer {
-      margin-top: 2.5rem;
-      font-size: 0.85rem;
-      color: #555;
-    }
-  </style>
+        .card {
+            background: var(--card-glass);
+            border: 1px solid rgba(255,255,255,0.05);
+            padding: 25px;
+            border-radius: 8px;
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .card:hover {
+            border-color: var(--accent-main);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .card h3 { font-size: 1rem; margin-top: 15px; color: #fff; }
+        .card p { font-size: 0.85rem; color: var(--text-gray); margin-top: 5px; }
+
+        /* Abstract CSS Animations */
+        .icon-stage { width: 40px; height: 40px; position: relative; display: flex; justify-content: center; align-items: center; }
+
+        /* 1. Institutional DeFi: Columns */
+        .a-inst { display: flex; align-items: flex-end; gap: 3px; height: 25px; }
+        .a-inst div { width: 6px; background: var(--accent-main); animation: grow 2s infinite alternate; }
+        .a-inst div:nth-child(2) { height: 15px; animation-delay: 0.2s; }
+        .a-inst div:nth-child(3) { height: 25px; animation-delay: 0.4s; }
+
+        /* 2. Ramp: Bridge */
+        .a-ramp { width: 30px; height: 15px; border-top: 2px solid var(--accent-main); border-radius: 50% 50% 0 0; animation: bridge 2s infinite; }
+        
+        /* 3. Liquidity: Drops */
+        .a-liquid { width: 10px; height: 10px; background: var(--accent-glow); border-radius: 50% 0 50% 50%; transform: rotate(-45deg); animation: drip 1.5s infinite; }
+
+        /* 4. Yield Farming: Growth */
+        .a-yield { width: 2px; height: 20px; background: #fff; position: relative; }
+        .a-yield::after { content:''; width: 10px; height: 10px; background: var(--accent-main); border-radius: 50%; position: absolute; top: -5px; left: -4px; animation: bloom 2s infinite; }
+
+        /* 5. Crypto Banking: Vault */
+        .a-bank { width: 24px; height: 24px; border: 2px solid var(--text-gray); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+        .a-bank::after { content:''; width: 12px; height: 2px; background: var(--accent-main); animation: spin 3s infinite linear; }
+
+        /* 6. RWA: Real World Assets (Cube) */
+        .a-rwa { width: 20px; height: 20px; border: 2px solid var(--accent-main); transform: rotate(45deg); animation: pulse-sq 2s infinite; }
+
+        /* 7. Tokenization: Hex split */
+        .a-token { width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 18px solid var(--accent-main); animation: split 2s infinite; }
+
+        /* 8. Compliance: Check */
+        .a-comp { width: 12px; height: 24px; border-bottom: 3px solid var(--accent-main); border-right: 3px solid var(--accent-main); transform: rotate(45deg); margin-top: -5px; animation: check 2s infinite; }
+
+        /* 9. Insurance: Shield */
+        .a-ins { width: 20px; height: 24px; border: 2px solid var(--text-gray); border-radius: 0 0 10px 10px; border-top: none; position: relative; }
+        .a-ins::before { content:''; position: absolute; top: -5px; left: -2px; width: 20px; height: 5px; border: 2px solid var(--text-gray); border-bottom: none; border-radius: 50% 50% 0 0; }
+        .a-ins::after { content:''; position: absolute; width: 10px; height: 10px; background: var(--accent-main); top: 5px; left: 3px; animation: fade 2s infinite; }
+
+        /* 10. Indexes: Bars */
+        .a-index { display: flex; gap: 2px; }
+        .a-index div { width: 4px; background: var(--text-gray); height: 10px; }
+        .a-index div:nth-child(2) { background: var(--accent-main); height: 15px; animation: rise 2s infinite; }
+        .a-index div:nth-child(3) { height: 12px; }
+
+        /* 11. Derivatives: Math */
+        .a-deriv { font-weight: bold; color: var(--accent-main); font-family: monospace; font-size: 20px; animation: blink 1s infinite; }
+
+        /* 12. Payroll: Flow */
+        .a-pay { width: 30px; height: 6px; border: 1px solid var(--text-gray); border-radius: 4px; overflow: hidden; }
+        .a-pay::after { content:''; display: block; width: 100%; height: 100%; background: var(--accent-main); transform: translateX(-100%); animation: slide 2s infinite; }
+
+        /* --- ACTIONS --- */
+        .action-zone {
+            padding: 80px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .price-box {
+            background: rgba(108, 92, 231, 0.05);
+            border: 1px solid var(--border-glass);
+            padding: 40px;
+            border-radius: 16px;
+            text-align: center;
+        }
+        .price { font-size: 3.5rem; font-weight: 800; color: #fff; margin-bottom: 5px; }
+        .terms { color: var(--text-gray); margin-bottom: 30px; font-size: 0.9rem; }
+        
+        .btn {
+            display: inline-block;
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: 0.3s;
+            cursor: pointer;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            border: none;
+        }
+        .btn-buy { background: var(--accent-main); color: #fff; }
+        .btn-buy:hover { background: #5649c0; box-shadow: 0 0 20px rgba(108, 92, 231, 0.4); }
+        .btn-copy { background: transparent; border: 1px solid var(--text-gray); color: var(--text-gray); }
+        .btn-copy:hover { border-color: #fff; color: #fff; }
+
+        /* OFFER FORM */
+        .offer-box {
+            background: #0f101a;
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .offer-box h3 { margin-bottom: 15px; font-weight: 300; }
+        .input-group { display: flex; gap: 10px; margin-top: 20px; }
+        .offer-input {
+            flex: 1;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: #fff;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: inherit;
+        }
+        .btn-submit {
+            background: #fff;
+            color: #000;
+            padding: 0 25px;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn-submit:hover { background: var(--accent-main); color: #fff; }
+
+        /* FOOTER */
+        footer {
+            margin-top: 60px;
+            padding: 40px 0;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.75rem;
+            color: #555;
+            text-align: center;
+        }
+
+        /* Animations Keyframes */
+        @keyframes grow { 0% { height: 5px; } 100% { height: 25px; } }
+        @keyframes bridge { 0% { border-color: var(--accent-main); } 50% { border-color: #fff; } 100% { border-color: var(--accent-main); } }
+        @keyframes drip { 0% { transform: translateY(0) rotate(-45deg); opacity: 1; } 100% { transform: translateY(10px) rotate(-45deg); opacity: 0; } }
+        @keyframes bloom { 0% { transform: scale(0.8); opacity: 0.5; } 100% { transform: scale(1.2); opacity: 1; } }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+        @keyframes pulse-sq { 0% { transform: rotate(45deg) scale(1); } 50% { transform: rotate(45deg) scale(0.8); } 100% { transform: rotate(45deg) scale(1); } }
+        @keyframes split { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
+        @keyframes check { 0% { opacity: 0; transform: rotate(45deg) scale(0.5); } 100% { opacity: 1; transform: rotate(45deg) scale(1); } }
+        @keyframes fade { 0% { opacity: 0.2; } 50% { opacity: 1; } 100% { opacity: 0.2; } }
+        @keyframes rise { 0% { height: 5px; } 100% { height: 20px; } }
+        @keyframes blink { 50% { opacity: 0; } }
+        @keyframes slide { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+
+        @media (max-width: 768px) {
+            .action-zone { grid-template-columns: 1fr; }
+            .txt-ramp { font-size: 3.5rem; }
+            .txt-finance { font-size: 2rem; }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>RAMPAY.FINANCE</h1>
+    <!-- Network Background -->
+    <canvas id="network-canvas"></canvas>
 
-    <p class="tagline">
-      The intelligent bridge between fiat and blockchain — powered by AI, built for protocols like X402.
-    </p>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <span class="txt-ramp">RAMPAY</span>
+                <span class="txt-finance">.FINANCE</span>
+            </div>
 
-    <div class="protocol-badge">
-      X402 • AI-Optimized Payments • Fiat On/Off Ramps
+            <div class="definition">
+                <div class="def-label">Ramp /ramp/ • noun</div>
+                <div class="def-content">
+                    The essential infrastructure connecting traditional <strong>fiat banking rails</strong> to decentralized <strong>crypto protocols</strong>.
+                </div>
+            </div>
+        </header>
+
+        <section class="verticals">
+            <div class="section-head">
+                <h2>12 Sectors of <b>Web3 Finance</b></h2>
+            </div>
+            <div class="grid">
+                <!-- 1 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-inst"><div></div><div></div><div></div></div></div>
+                    <h3>Institutional DeFi</h3>
+                    <p>Compliance-first liquidity.</p>
+                </div>
+                <!-- 2 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-ramp"></div></div>
+                    <h3>Fiat On-Ramps</h3>
+                    <p>Seamless USD/EUR entry.</p>
+                </div>
+                <!-- 3 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-liquid"></div></div>
+                    <h3>Liquidity Pools</h3>
+                    <p>Automated market making.</p>
+                </div>
+                <!-- 4 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-yield"></div></div>
+                    <h3>Yield Farming</h3>
+                    <p>Asset optimization strategies.</p>
+                </div>
+                <!-- 5 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-bank"></div></div>
+                    <h3>Crypto Banking</h3>
+                    <p>Neo-bank integration services.</p>
+                </div>
+                <!-- 6 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-rwa"></div></div>
+                    <h3>RWA</h3>
+                    <p>Real World Asset tokenization.</p>
+                </div>
+                <!-- 7 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-token"></div></div>
+                    <h3>Asset Management</h3>
+                    <p>Portfolio rebalancing tools.</p>
+                </div>
+                <!-- 8 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-comp"></div></div>
+                    <h3>KYC/AML Layer</h3>
+                    <p>Identity verification finance.</p>
+                </div>
+                <!-- 9 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-ins"></div></div>
+                    <h3>DeFi Insurance</h3>
+                    <p>Smart contract coverage.</p>
+                </div>
+                <!-- 10 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-index"><div></div><div></div><div></div></div></div>
+                    <h3>Crypto Indexes</h3>
+                    <p>Basket asset tracking.</p>
+                </div>
+                <!-- 11 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-deriv">∫</div></div>
+                    <h3>Derivatives</h3>
+                    <p>Futures and options trading.</p>
+                </div>
+                <!-- 12 -->
+                <div class="card">
+                    <div class="icon-stage"><div class="a-pay"></div></div>
+                    <h3>Payroll Ops</h3>
+                    <p>Global salary streaming.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="action-zone">
+            <!-- Buy Box -->
+            <div class="price-box">
+                <div class="price">$369</div>
+                <div class="terms">Pay in full or 3 monthly installments</div>
+                <a href="https://www.spaceship.com/s/buy/rampay.finance/e0mPy6EoP7Uipib4" target="_blank" class="btn btn-buy">Acquire Asset</a>
+                <button class="btn btn-copy" onclick="copyEmail(this)">Copy Email</button>
+            </div>
+
+            <!-- Offer Box -->
+            <div class="offer-box">
+                <h3>Make a Counter Offer</h3>
+                <p style="color: #888; font-size: 0.9rem;">Price is negotiable. Enter your best offer below to send an email inquiry.</p>
+                <div class="input-group">
+                    <input type="number" id="offerAmount" class="offer-input" placeholder="Amount (USD)">
+                    <button class="btn-submit" onclick="sendOffer()">Send</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p><strong>Disclaimer:</strong> This website is exclusively for the sale of the domain name "rampay.finance". We are not a financial institution, bank, or investment advisor. No financial software or services are included.</p>
+            <p style="margin-top:10px;">&copy; 2024 RamPay.finance. All rights reserved.</p>
+        </footer>
     </div>
 
-    <div class="features">
-      <div class="feature">Fiat Swap</div>
-      <div class="feature">AI Routing</div>
-      <div class="feature">Cross-Border</div>
-      <div class="feature">Low Latency</div>
-    </div>
+    <script>
+        // 1. Copy Email Logic
+        function copyEmail(btn) {
+            const email = "joshua369x@gmail.com";
+            navigator.clipboard.writeText(email).then(() => {
+                const original = btn.innerText;
+                btn.innerText = "COPIED TO CLIPBOARD";
+                btn.style.borderColor = "#6c5ce7";
+                btn.style.color = "#6c5ce7";
+                setTimeout(() => {
+                    btn.innerText = original;
+                    btn.style.borderColor = "#b2bec3";
+                    btn.style.color = "#b2bec3";
+                }, 2000);
+            });
+        }
 
-    <p class="tagline">
-      As finance converges with decentralized intelligence, domains like <strong>rampay.finance</strong> become strategic infrastructure for next-gen payment rails.
-    </p>
+        // 2. Make Offer Logic (Mailto)
+        function sendOffer() {
+            const amount = document.getElementById('offerAmount').value;
+            if (!amount) {
+                alert("Please enter an amount.");
+                return;
+            }
+            const email = "joshua369x@gmail.com";
+            const subject = "Offer for RamPay.finance";
+            const body = `Hello,\n\nI am interested in acquiring rampay.finance.\nI would like to offer: $${amount} USD.\n\nPlease let me know if this is acceptable.\n\nBest regards,`;
+            
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        }
 
-    <div class="price">
-      Price: $3,690 USD (3 monthly installments available)
-    </div>
+        // 3. Network Particle System (Financial Nodes)
+        const canvas = document.getElementById('network-canvas');
+        const ctx = canvas.getContext('2d');
+        let w, h;
+        let particles = [];
 
-    <p class="contact">
-      Contact: <a href="mailto:joshua369x@gmail.com">joshua369x@gmail.com</a>
-    </p>
+        function resize() {
+            w = canvas.width = window.innerWidth;
+            h = canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resize);
+        resize();
 
-    <footer>
-      RAMP + PAY + FINANCE = THE FUTURE OF SMART MONEY
-    </footer>
-  </div>
+        class Node {
+            constructor() {
+                this.x = Math.random() * w;
+                this.y = Math.random() * h;
+                this.vx = (Math.random() - 0.5) * 0.3;
+                this.vy = (Math.random() - 0.5) * 0.3;
+                this.size = Math.random() * 1.5 + 1;
+            }
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                if (this.x < 0 || this.x > w) this.vx *= -1;
+                if (this.y < 0 || this.y > h) this.vy *= -1;
+            }
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(108, 92, 231, 0.5)';
+                ctx.fill();
+            }
+        }
+
+        function init() {
+            particles = [];
+            let count = (w * h) / 15000; // Responsive count
+            for (let i = 0; i < count; i++) particles.push(new Node());
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, w, h);
+            
+            for (let i = 0; i < particles.length; i++) {
+                let p1 = particles[i];
+                p1.update();
+                p1.draw();
+
+                // Connect nodes
+                for (let j = i + 1; j < particles.length; j++) {
+                    let p2 = particles[j];
+                    let dx = p1.x - p2.x;
+                    let dy = p1.y - p2.y;
+                    let dist = Math.sqrt(dx*dx + dy*dy);
+
+                    if (dist < 120) {
+                        ctx.beginPath();
+                        ctx.strokeStyle = `rgba(108, 92, 231, ${0.15 - dist/800})`;
+                        ctx.lineWidth = 0.5;
+                        ctx.moveTo(p1.x, p1.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.stroke();
+                    }
+                }
+            }
+            requestAnimationFrame(animate);
+        }
+
+        init();
+        animate();
+    </script>
 </body>
 </html>
